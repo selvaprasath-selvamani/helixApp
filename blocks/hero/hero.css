@@ -11,14 +11,19 @@ main .hero-container {
 main .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  min-height: 840px;
+  background-color: #000000d2;
 }
 
 main .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  right:10%;
+  top:35%;
+  position: absolute;
   color: white;
+  font-size: 2rem;
 }
 
 main .hero picture {
@@ -30,6 +35,7 @@ main .hero picture {
   right: 0;
   object-fit: cover;
   box-sizing: border-box;
+
 }
 
 main .hero img {

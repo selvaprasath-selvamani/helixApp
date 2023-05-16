@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000d2;
+}
+
+.row > div{
+flex: 1;
+color:white
+}
+
+.row > div>div>picture img{
+border-radius: 70%;
+padding: 20px;
+}
+
+@media (min-width: 900px) {
+  .row {
+    flex: 1;
+   flex-direction: row;
+  }
+}

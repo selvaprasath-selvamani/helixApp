@@ -232,7 +232,6 @@ main .section {
 
 @media (min-width: 900px) {
   .section > div {
-    max-width: 1200px;
     margin: auto;
   }
 }
@@ -240,4 +239,9 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+.default-content-wrapper{
+color:black;
+text-align: center;
 }
